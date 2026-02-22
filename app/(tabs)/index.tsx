@@ -1,7 +1,7 @@
 
 import { ThemedText } from '@/components/themed-text';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import AnimTypes from '../tutorials/AnimatedAPI/AnimTypes';
+import FadeInView from '../tutorials/AnimatedAPI/FadeInView';
 
 export default function HomeScreen() {
   return (
@@ -15,7 +15,8 @@ export default function HomeScreen() {
         {/* <Value/> */}
 
         {/* <Interpolation/> */}
-        <AnimTypes/>
+        {/* <AnimTypes/> */}
+        <FadeInView/>
       </SafeAreaView>
   );
 }
