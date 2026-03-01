@@ -1,7 +1,7 @@
 
 import { ThemedText } from '@/components/themed-text';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import NestingAnimations from '../tutorials/AnimatedAPI/NestingAnimations';
+import CustomAnimatedComponent from '../tutorials/AnimatedAPI/CustomAnimatedComponent';
 
 export default function HomeScreen() {
   return (
@@ -18,7 +18,9 @@ export default function HomeScreen() {
         {/* <AnimTypes/> */}
         {/* <FadeInView/> */}
         {/* <EasingAnimation/> */}
-        <NestingAnimations/>
+        {/* <NestingAnimations/> */}
+        {/* <Event/> */}
+        <CustomAnimatedComponent/>
       </SafeAreaView>
   );
 }
