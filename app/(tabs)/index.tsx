@@ -1,7 +1,7 @@
 
 import { ThemedText } from '@/components/themed-text';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import CustomAnimatedComponent from '../tutorials/AnimatedAPI/CustomAnimatedComponent';
+import LayoutAnim from '../tutorials/AnimatedAPI/LayoutAnim';
 
 export default function HomeScreen() {
   return (
@@ -20,7 +20,8 @@ export default function HomeScreen() {
         {/* <EasingAnimation/> */}
         {/* <NestingAnimations/> */}
         {/* <Event/> */}
-        <CustomAnimatedComponent/>
+        {/* <CustomAnimatedComponent/> */}
+        <LayoutAnim/>
       </SafeAreaView>
   );
 }
