@@ -1,7 +1,7 @@
 
 import { ThemedText } from '@/components/themed-text';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import LayoutAnim from '../tutorials/AnimatedAPI/LayoutAnim';
+import ScrollEvent from '../tutorials/AnimatedAPI/ScrollEvent';
 
 export default function HomeScreen() {
   return (
@@ -21,7 +21,8 @@ export default function HomeScreen() {
         {/* <NestingAnimations/> */}
         {/* <Event/> */}
         {/* <CustomAnimatedComponent/> */}
-        <LayoutAnim/>
+        {/* <LayoutAnim/> */}
+        <ScrollEvent/>
       </SafeAreaView>
   );
 }
