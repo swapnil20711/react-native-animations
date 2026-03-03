@@ -3,9 +3,10 @@ import { Button, View } from 'react-native';
 import Animated, { useAnimatedStyle, useSharedValue, withClamp, withDecay, withDelay, withRepeat, withSequence, withSpring, withTiming } from 'react-native-reanimated';
 
 const Method = () => {
-    const translateX = useSharedValue(0);
+    const translateX = useSharedValue(0); //V
     const animatedStyle = useAnimatedStyle(() => {
         return ({
+            //C 
             transform: [{ translateX: translateX.value }]
         })
     })
