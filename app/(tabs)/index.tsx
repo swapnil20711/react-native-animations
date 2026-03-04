@@ -1,7 +1,7 @@
 
 import { ThemedText } from '@/components/themed-text';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import Hooks from '../tutorials/Reanimated/Hooks';
+import ScrollTo from '../tutorials/Reanimated/ScrollTo';
 
 export default function HomeScreen() {
   return (
@@ -26,7 +26,9 @@ export default function HomeScreen() {
         {/* Reanimated */}
         {/* <RNBasic/> */}
         {/* <Method/> */}
-        <Hooks/>
+        {/* <Hooks/> */}
+        {/* <ScrollHandler/> */}
+        <ScrollTo/>
       </SafeAreaView>
   );
 }
